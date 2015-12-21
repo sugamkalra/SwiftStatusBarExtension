@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150DD50E1C281F3400F40967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DD50D1C281F3400F40967 /* AppDelegate.swift */; };
+		150DD5101C281F3400F40967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DD50F1C281F3400F40967 /* ViewController.swift */; };
+		150DD5131C281F3400F40967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DD5111C281F3400F40967 /* Main.storyboard */; };
+		150DD5161C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 150DD5141C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodeld */; };
+		150DD5181C281F3400F40967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150DD5171C281F3400F40967 /* Assets.xcassets */; };
+		150DD51B1C281F3400F40967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DD5191C281F3400F40967 /* LaunchScreen.storyboard */; };
+		150DD5261C281F3400F40967 /* SwiftyStatusBarExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DD5251C281F3400F40967 /* SwiftyStatusBarExtensionTests.swift */; };
+		150DD5311C281F3400F40967 /* SwiftyStatusBarExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DD5301C281F3400F40967 /* SwiftyStatusBarExtensionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150DD5221C281F3400F40967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150DD5021C281F3300F40967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150DD5091C281F3400F40967;
+			remoteInfo = SwiftyStatusBarExtension;
+		};
+		150DD52D1C281F3400F40967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150DD5021C281F3300F40967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150DD5091C281F3400F40967;
+			remoteInfo = SwiftyStatusBarExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150DD50A1C281F3400F40967 /* SwiftyStatusBarExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyStatusBarExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DD50D1C281F3400F40967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150DD50F1C281F3400F40967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150DD5121C281F3400F40967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150DD5151C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftyStatusBarExtension.xcdatamodel; sourceTree = "<group>"; };
+		150DD5171C281F3400F40967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150DD51A1C281F3400F40967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150DD51C1C281F3400F40967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DD5211C281F3400F40967 /* SwiftyStatusBarExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyStatusBarExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DD5251C281F3400F40967 /* SwiftyStatusBarExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStatusBarExtensionTests.swift; sourceTree = "<group>"; };
+		150DD5271C281F3400F40967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DD52C1C281F3400F40967 /* SwiftyStatusBarExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyStatusBarExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DD5301C281F3400F40967 /* SwiftyStatusBarExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStatusBarExtensionUITests.swift; sourceTree = "<group>"; };
+		150DD5321C281F3400F40967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150DD5071C281F3400F40967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD51E1C281F3400F40967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD5291C281F3400F40967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150DD5011C281F3300F40967 = {
+			isa = PBXGroup;
+			children = (
+				150DD50C1C281F3400F40967 /* SwiftyStatusBarExtension */,
+				150DD5241C281F3400F40967 /* SwiftyStatusBarExtensionTests */,
+				150DD52F1C281F3400F40967 /* SwiftyStatusBarExtensionUITests */,
+				150DD50B1C281F3400F40967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150DD50B1C281F3400F40967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150DD50A1C281F3400F40967 /* SwiftyStatusBarExtension.app */,
+				150DD5211C281F3400F40967 /* SwiftyStatusBarExtensionTests.xctest */,
+				150DD52C1C281F3400F40967 /* SwiftyStatusBarExtensionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150DD50C1C281F3400F40967 /* SwiftyStatusBarExtension */ = {
+			isa = PBXGroup;
+			children = (
+				150DD50D1C281F3400F40967 /* AppDelegate.swift */,
+				150DD50F1C281F3400F40967 /* ViewController.swift */,
+				150DD5111C281F3400F40967 /* Main.storyboard */,
+				150DD5171C281F3400F40967 /* Assets.xcassets */,
+				150DD5191C281F3400F40967 /* LaunchScreen.storyboard */,
+				150DD51C1C281F3400F40967 /* Info.plist */,
+				150DD5141C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodeld */,
+			);
+			path = SwiftyStatusBarExtension;
+			sourceTree = "<group>";
+		};
+		150DD5241C281F3400F40967 /* SwiftyStatusBarExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				150DD5251C281F3400F40967 /* SwiftyStatusBarExtensionTests.swift */,
+				150DD5271C281F3400F40967 /* Info.plist */,
+			);
+			path = SwiftyStatusBarExtensionTests;
+			sourceTree = "<group>";
+		};
+		150DD52F1C281F3400F40967 /* SwiftyStatusBarExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				150DD5301C281F3400F40967 /* SwiftyStatusBarExtensionUITests.swift */,
+				150DD5321C281F3400F40967 /* Info.plist */,
+			);
+			path = SwiftyStatusBarExtensionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150DD5091C281F3400F40967 /* SwiftyStatusBarExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DD5351C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtension" */;
+			buildPhases = (
+				150DD5061C281F3400F40967 /* Sources */,
+				150DD5071C281F3400F40967 /* Frameworks */,
+				150DD5081C281F3400F40967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyStatusBarExtension;
+			productName = SwiftyStatusBarExtension;
+			productReference = 150DD50A1C281F3400F40967 /* SwiftyStatusBarExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150DD5201C281F3400F40967 /* SwiftyStatusBarExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DD5381C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtensionTests" */;
+			buildPhases = (
+				150DD51D1C281F3400F40967 /* Sources */,
+				150DD51E1C281F3400F40967 /* Frameworks */,
+				150DD51F1C281F3400F40967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150DD5231C281F3400F40967 /* PBXTargetDependency */,
+			);
+			name = SwiftyStatusBarExtensionTests;
+			productName = SwiftyStatusBarExtensionTests;
+			productReference = 150DD5211C281F3400F40967 /* SwiftyStatusBarExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150DD52B1C281F3400F40967 /* SwiftyStatusBarExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DD53B1C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtensionUITests" */;
+			buildPhases = (
+				150DD5281C281F3400F40967 /* Sources */,
+				150DD5291C281F3400F40967 /* Frameworks */,
+				150DD52A1C281F3400F40967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150DD52E1C281F3400F40967 /* PBXTargetDependency */,
+			);
+			name = SwiftyStatusBarExtensionUITests;
+			productName = SwiftyStatusBarExtensionUITests;
+			productReference = 150DD52C1C281F3400F40967 /* SwiftyStatusBarExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150DD5021C281F3300F40967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					150DD5091C281F3400F40967 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					150DD5201C281F3400F40967 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 150DD5091C281F3400F40967;
+					};
+					150DD52B1C281F3400F40967 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 150DD5091C281F3400F40967;
+					};
+				};
+			};
+			buildConfigurationList = 150DD5051C281F3300F40967 /* Build configuration list for PBXProject "SwiftyStatusBarExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150DD5011C281F3300F40967;
+			productRefGroup = 150DD50B1C281F3400F40967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150DD5091C281F3400F40967 /* SwiftyStatusBarExtension */,
+				150DD5201C281F3400F40967 /* SwiftyStatusBarExtensionTests */,
+				150DD52B1C281F3400F40967 /* SwiftyStatusBarExtensionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150DD5081C281F3400F40967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DD51B1C281F3400F40967 /* LaunchScreen.storyboard in Resources */,
+				150DD5181C281F3400F40967 /* Assets.xcassets in Resources */,
+				150DD5131C281F3400F40967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD51F1C281F3400F40967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD52A1C281F3400F40967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150DD5061C281F3400F40967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DD5101C281F3400F40967 /* ViewController.swift in Sources */,
+				150DD5161C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodeld in Sources */,
+				150DD50E1C281F3400F40967 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD51D1C281F3400F40967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DD5261C281F3400F40967 /* SwiftyStatusBarExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DD5281C281F3400F40967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DD5311C281F3400F40967 /* SwiftyStatusBarExtensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150DD5231C281F3400F40967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150DD5091C281F3400F40967 /* SwiftyStatusBarExtension */;
+			targetProxy = 150DD5221C281F3400F40967 /* PBXContainerItemProxy */;
+		};
+		150DD52E1C281F3400F40967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150DD5091C281F3400F40967 /* SwiftyStatusBarExtension */;
+			targetProxy = 150DD52D1C281F3400F40967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150DD5111C281F3400F40967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DD5121C281F3400F40967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150DD5191C281F3400F40967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DD51A1C281F3400F40967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150DD5331C281F3400F40967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150DD5341C281F3400F40967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150DD5361C281F3400F40967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyStatusBarExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		150DD5371C281F3400F40967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyStatusBarExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		150DD5391C281F3400F40967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyStatusBarExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyStatusBarExtension.app/SwiftyStatusBarExtension";
+			};
+			name = Debug;
+		};
+		150DD53A1C281F3400F40967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyStatusBarExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyStatusBarExtension.app/SwiftyStatusBarExtension";
+			};
+			name = Release;
+		};
+		150DD53C1C281F3400F40967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyStatusBarExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyStatusBarExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		150DD53D1C281F3400F40967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyStatusBarExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyStatusBarExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyStatusBarExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150DD5051C281F3300F40967 /* Build configuration list for PBXProject "SwiftyStatusBarExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DD5331C281F3400F40967 /* Debug */,
+				150DD5341C281F3400F40967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150DD5351C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DD5361C281F3400F40967 /* Debug */,
+				150DD5371C281F3400F40967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		150DD5381C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DD5391C281F3400F40967 /* Debug */,
+				150DD53A1C281F3400F40967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		150DD53B1C281F3400F40967 /* Build configuration list for PBXNativeTarget "SwiftyStatusBarExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DD53C1C281F3400F40967 /* Debug */,
+				150DD53D1C281F3400F40967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		150DD5141C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				150DD5151C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodel */,
+			);
+			currentVersion = 150DD5151C281F3400F40967 /* SwiftyStatusBarExtension.xcdatamodel */;
+			path = SwiftyStatusBarExtension.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 150DD5021C281F3300F40967 /* Project object */;
+}
